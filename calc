@@ -1,0 +1,17 @@
+import py
+
+def calc(num1,num2,operation):
+    if operation == "+":
+        print("the result is:",num1+num2)
+    elif operation == "-":
+        print("the result is:",num1-num2)
+    elif operation == "*":
+        print("the result is:",num1*num2)
+    elif operation == "/":
+        print("the result is:",num1/num2)
+   # else:
+        #calc()
+    
+    
+    a=calc(7,3,"/")
+    print(a)
